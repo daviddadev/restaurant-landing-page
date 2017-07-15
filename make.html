@@ -27,7 +27,6 @@
         </div>
         <div class="row">
             <div class="col-lg-12">
-                <!-- Reservation Page -->
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4 class="panel-title">Table Reservation</h4>
@@ -83,13 +82,12 @@
     			else {
     			alert("Sorry, every table is currently full. You have been added to the waitlist.");
     			}
-
-    			// Clear form fields
     			$("#reserve_name").val("");
     			$("#reserve_phone").val("");
     			$("#reserve_email").val("");
     			$("#reserve_uniqueID").val("");
     		});
+            return false;
     	});
 
     </script>
